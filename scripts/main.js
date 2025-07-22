@@ -30,3 +30,4 @@ const applicationHTML = `
 
 mainContainer.innerHTML = applicationHTML
 
+// ON BOOK 1 CHAPTER 2 LEARNING ABOUT ERD  WATCH THE TUTORIALS
