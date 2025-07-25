@@ -1,7 +1,7 @@
-import { Walkers } from "./Walkers.js"
-import { CityList } from "./CityList.js"
+import { Walkers, sortWalkerList } from "./Walkers.js"
+import { CityList, sortCityList } from "./CityList.js"
 import { Assignments } from "./Assignments.js"
-import { RegisteredPets } from "./RegisteredPets.js"
+import { RegisteredPets, sortPetList } from "./RegisteredPets.js"
 
 const mainContainer = document.querySelector("#container")
 
@@ -29,5 +29,6 @@ const applicationHTML = `
 `
 
 mainContainer.innerHTML = applicationHTML
-
-// ON BOOK 1 CHAPTER 2 LEARNING ABOUT ERD  WATCH THE TUTORIALS
+sortCityList()
+sortWalkerList()
+sortPetList()

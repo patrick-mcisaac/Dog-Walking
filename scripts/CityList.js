@@ -27,17 +27,37 @@ document.addEventListener(
 
 
 export const CityList = () => {
-    let citiesHTML = "<ol>"
+    let citiesHTML = "<ul id=cityList>"
 
     for (const city of cities) {
-        citiesHTML += `<li data-type='city'
+        citiesHTML += `<li class="city-list" data-type='city'
                             data-city-id="${city.id}"
                             >${city.city}
                         </li>`
     }
 
-    citiesHTML += "</ol>"
+    citiesHTML += "</ul>"
 
     return citiesHTML
 }
 
+// declare function
+export const sortCityList = () => {
+    const array = []
+    // grab the li from the Ul
+    const listItems = document.getElementsByClassName('city-list')
+    // convert li text to array
+    for (const item of listItems) {
+        array.push(item.innerHTML)
+    }
+
+    array.sort();
+    for(let i = 0; i < array.length; i++){
+        listItems[i].innerHTML = array[i]
+    }
+
+}
+
+
+
+// sort li

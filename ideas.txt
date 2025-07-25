@@ -1,0 +1,11 @@
+
+can create own city array in database with id and city name
+export city array function to copy the array
+
+change walker city to city id and give the city id matching the id of the city in city database
+
+
+adjust the city list function to loop through city array
+change the state in city to get walker name with for and if loop
+change walker click to loop through city and compare city id
+

@@ -17,3 +17,11 @@
     padding: 1rem;
 }
 
+ul {
+    column-count: 3;
+}
+
+li {
+    /* list-style-type: none; */
+}
+

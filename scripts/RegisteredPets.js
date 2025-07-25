@@ -24,7 +24,7 @@ export const RegisteredPets = () => {
     let petHTML = "<ul>"
 
     for (const pet of pets) {
-        petHTML += `<li data-walkerForeignKey="${pet.walkerId}">${pet.name}</li>`
+        petHTML += `<li class="pet-list" data-walkerForeignKey="${pet.walkerId}">${pet.name}</li>`
     }
 
     petHTML += "</ul>"
@@ -32,3 +32,18 @@ export const RegisteredPets = () => {
     return petHTML
 }
 
+export const sortPetList = () => {
+    const array = []
+    // grab the li from the Ul
+    const listItems = document.getElementsByClassName('pet-list')
+    // convert li text to array
+    for (const item of listItems) {
+        array.push(item.innerHTML)
+    }
+
+    array.sort();
+    for(let i = 0; i < array.length; i++){
+        listItems[i].innerHTML = array[i]
+    }
+
+}
