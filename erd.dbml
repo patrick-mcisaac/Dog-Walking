@@ -1,0 +1,19 @@
+Table Pets {
+    id int [pk]
+    walkerId int
+    name varchar
+}
+
+Table Walkers [headercolor: #11552b]{
+    id int [pk]
+    name varchar [ref: > City.id]
+    email varchar
+    cityId int [ref: > Pets.id]
+}
+
+Table City{
+    id int [pk]
+    name varchar
+}
+
+

@@ -4,7 +4,7 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -912.3202,
+    "scrollTop": -902.0537,
     "scrollLeft": -800,
     "zoomLevel": 1,
     "show": 293,
@@ -39,7 +39,9 @@
       "kHvZm6vztEY3z54UUhYLb",
       "vjtxpXJ0UZTZ3GeRhHJ2_"
     ],
-    "indexIds": [],
+    "indexIds": [
+      "3jupSXehFEa4MTeQW8ynv"
+    ],
     "memoIds": []
   },
   "collections": {
@@ -57,15 +59,15 @@
           "xSqcnZKJap40xE7sVxHVB"
         ],
         "ui": {
-          "x": 1058.1752567698986,
-          "y": 1357.3418791585698,
+          "x": 919.4376,
+          "y": 1037.4894,
           "zIndex": 2,
           "widthName": 60,
           "widthComment": 60,
-          "color": ""
+          "color": "#D60000"
         },
         "meta": {
-          "updateAt": 1753283546144,
+          "updateAt": 1753415000393,
           "createAt": 1753207620585
         }
       },
@@ -117,15 +119,15 @@
           "6hLp3c-d7pj4ldiq8KyCh"
         ],
         "ui": {
-          "x": 1234.9609989202204,
-          "y": 1051.5363446075085,
+          "x": 1186.7151,
+          "y": 1024.2413,
           "zIndex": 119,
           "widthName": 60,
           "widthComment": 60,
-          "color": ""
+          "color": "#D30000"
         },
         "meta": {
-          "updateAt": 1753283546144,
+          "updateAt": 1753414988860,
           "createAt": 1753208389789
         }
       }
@@ -403,8 +405,8 @@
           "columnIds": [
             "-i-gy4VifIA4p5GEmeNp2"
           ],
-          "x": 1244.1752567698986,
-          "y": 1409.3418791585698,
+          "x": 1105.4376,
+          "y": 1089.4894,
           "direction": 2
         },
         "end": {
@@ -440,9 +442,9 @@
           "columnIds": [
             "IJx3JVg3k1SGJnwSvezIR"
           ],
-          "x": 1327.9609989202204,
-          "y": 1179.5363446075085,
-          "direction": 8
+          "x": 1372.7151,
+          "y": 1088.2413,
+          "direction": 2
         },
         "meta": {
           "updateAt": 1753208513947,
@@ -485,6 +487,18 @@
         "meta": {
           "updateAt": 1753207717064,
           "createAt": 1753207717064
+        }
+      },
+      "3jupSXehFEa4MTeQW8ynv": {
+        "id": "3jupSXehFEa4MTeQW8ynv",
+        "name": "try",
+        "tableId": "9Uj7rlsAcB04ZIZY3Fo9U",
+        "indexColumnIds": [],
+        "seqIndexColumnIds": [],
+        "unique": false,
+        "meta": {
+          "updateAt": 1753414940561,
+          "createAt": 1753414930679
         }
       }
     },
